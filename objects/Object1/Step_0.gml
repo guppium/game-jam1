@@ -6,15 +6,15 @@ move_and_collide( HorizontalDirection * MoveSpeed, VerticalDirection * MoveSpeed
 
 if (HorizontalDirection != 0 or VerticalDirection != 0 )
 {
-    if ( VerticalDirection > 0 ) sprite_index = spr_player_walk_down;
-    else if ( HorizontalDirection > 0 ) sprite_index = spr_player_walk_right;
-    else if ( VerticalDirection < 0 ) sprite_index = spr_player_walk_up; 
-    else if ( HorizontalDirection < 0 ) sprite_index = spr_player_walk_left;          
+    if ( VerticalDirection > 0 ) sprite_index = camminata_avanti;
+    else if ( HorizontalDirection > 0 ) sprite_index = camminata_destra;
+    else if ( VerticalDirection < 0 ) sprite_index = Camminata_indietro; 
+    else if ( HorizontalDirection < 0 ) sprite_index = camminata_sinistra;          
 }
 else 
 {
-    if (sprite_index ==  spr_player_walk_right) sprite_index = spr_player_idle_right;
-    else if (sprite_index ==  spr_player_walk_left) sprite_index = spr_player_idle_left;
-    else if (sprite_index ==  spr_player_walk_up) sprite_index = spr_player_idle_up;
-    else if (sprite_index ==  spr_player_walk_down) sprite_index = spr_player_idle_down; 
+    if (sprite_index ==  camminata_destra) sprite_index = idle_destra;
+    else if (sprite_index ==  camminata_sinistra) sprite_index = idle_sinistra;
+    else if (sprite_index ==  Camminata_indietro) sprite_index = idle_indietro;
+    else if (sprite_index ==  camminata_avanti) sprite_index = idle_avanti; 
 }

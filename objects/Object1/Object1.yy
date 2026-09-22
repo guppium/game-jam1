@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_idle_down",
-    "path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",
+    "name":"camminata_avanti",
+    "path":"sprites/camminata_avanti/camminata_avanti.yy",
   },
   "spriteMaskId":null,
   "visible":true,
