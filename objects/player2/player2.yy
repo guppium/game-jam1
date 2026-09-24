@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"idle_avanti",
-    "path":"sprites/idle_avanti/idle_avanti.yy",
+    "name":"idle",
+    "path":"sprites/idle/idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
