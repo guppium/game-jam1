@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"camminata_avanti",
-    "path":"sprites/camminata_avanti/camminata_avanti.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
