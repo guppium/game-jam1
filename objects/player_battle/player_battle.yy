@@ -9,8 +9,8 @@
   "name":"player_battle",
   "overriddenProperties":[],
   "parent":{
-    "name":"battle",
-    "path":"folders/objects/battle.yy",
+    "name":"Battle",
+    "path":"folders/Assets/Objects/Battle.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_player_idle_right",
-    "path":"sprites/spr_player_idle_right/spr_player_idle_right.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
