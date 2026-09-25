@@ -6,8 +6,8 @@
   "name":"acqua_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Undefined",
-    "path":"folders/Assets/Sprites/Map/Undefined.yy",
+    "name":"Tiles",
+    "path":"folders/Assets/Objects/Map/Tiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
