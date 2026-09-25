@@ -64,7 +64,7 @@
     },
     "name":"spritependolo__1__Sheet",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":10.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
