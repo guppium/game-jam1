@@ -6,8 +6,8 @@
   "name":"muro_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"RPG Starter Pack",
-    "path":"RPG Starter Pack.yyp",
+    "name":"Undefined",
+    "path":"folders/Assets/Sprites/Map/Undefined.yy",
   },
   "parentObjectId":{
     "name":"acqua_obj",

@@ -1,9 +1,13 @@
-function update_dello_sprite(){
+function AnimatePlayerSprite(){
 // updeate dello sprite
-    local_frame = 0
-    var _direzionecardiale = round( direction) / 90;
-    var  _frametotali =sprite_get_number( sprite_index) / 4;
-    image_index = local_frame + (_direzionecardiale * _frametotali)
-    local_frame += sprite_get_speed(sprite_index) / FRAMERATE
-
+    
+    var _direzionecardiale = round(direction) / 90;
+    var TotalFrames = sprite_get_number(sprite_index) / 4;
+    image_index = PlayerLocalFrame + (_direzionecardiale * TotalFrames)
+    PlayerLocalFrame += sprite_get_speed(sprite_index) / Framerate
+    
+    if (PlayerLocalFrame >= TotalFrames) {
+        AnimationEnd = true
+        PlayerLocalFrame -= TotalFrames
+    } else AnimationEnd = false;
 }
