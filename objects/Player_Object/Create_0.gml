@@ -11,4 +11,8 @@ PlayerYSpeed = 0;
 SpriteCamminata = PlayerWalk;
 SpriteIdle = PlayerIdle;
 
+CanPlayerMove = true;
+
 PlayerLocalFrame = 0;
+
+PlayerDamage = 1;
