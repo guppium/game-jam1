@@ -1,4 +1,4 @@
-function AnimatePlayerSprite(){
+function AnimatePlayerWalk(){
 // updeate dello sprite
     
     var _direzionecardiale = round(direction) / 90;
@@ -10,4 +10,10 @@ function AnimatePlayerSprite(){
         AnimationEnd = true
         PlayerLocalFrame -= TotalFrames
     } else AnimationEnd = false;
+}
+
+function AnimatePlayerAttack(){
+    sprite_index = PlayerAttackSprite
+    image_index = 0
+    image_speed = 1
 }
