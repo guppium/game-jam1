@@ -11,6 +11,7 @@ InputDirection = point_direction(0, 0, MoveRight - MoveLeft, MoveDown - MoveUp);
 PlayerXSpeed = lengthdir_x(InputMagnitude * PlayerMoveSpeed, InputDirection);
 PlayerYSpeed = lengthdir_y(InputMagnitude * PlayerMoveSpeed, InputDirection);
 
+
 x += PlayerXSpeed;
 y += PlayerYSpeed;
 
