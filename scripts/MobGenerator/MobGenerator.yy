@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"MobGenerator",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MobGenerator",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
