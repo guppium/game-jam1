@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"muro_obj",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"TileHurtbox","path":"objects/TileHurtbox/TileHurtbox.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"TileHurtbox",
+  "eventList":[],
   "managed":true,
-  "name":"muro_obj",
+  "name":"TileHurtbox",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tiles",
-    "path":"folders/Assets/Objects/Map/Tiles.yy",
+    "name":"Hurtbox",
+    "path":"folders/Assets/Objects/Boxs/Hurtbox.yy",
   },
-  "parentObjectId":{
-    "name":"acqua_obj",
-    "path":"objects/acqua_obj/acqua_obj.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite33",
-    "path":"sprites/Sprite33/Sprite33.yy",
+    "name":"TileHurtboxSprite",
+    "path":"sprites/TileHurtboxSprite/TileHurtboxSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
