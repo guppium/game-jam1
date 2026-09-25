@@ -1,7 +1,7 @@
 //variabili di movimento
 
 image_speed = 0;
-PlayerMoveSpeed = 2;
+PlayerMoveSpeed = 1.5;
 
 PlayerXSpeed = 0;
 PlayerYSpeed = 0;
@@ -12,6 +12,7 @@ SpriteCamminata = PlayerWalk;
 SpriteIdle = PlayerIdle;
 
 CanPlayerMove = true;
+PlayerIsAttacking = false;
 
 PlayerLocalFrame = 0;
 

@@ -6,10 +6,14 @@ if (CanPlayerMove) {
     var MoveUp = keyboard_check(ord("W"));
     var MoveDown = keyboard_check(ord("S"));
     
-    InputMagnitude = (MoveRight - MoveLeft != 0) || (MoveDown - MoveUp != 0);
+    var XInput = MoveRight - MoveLeft
+    var YInput = MoveDown - MoveUp
+    InputMagnitude = (XInput != 0) || (YInput != 0);
     InputDirection = point_direction(0, 0, MoveRight - MoveLeft, MoveDown - MoveUp);
-    PlayerXSpeed = lengthdir_x(InputMagnitude * PlayerMoveSpeed, InputDirection);
-    PlayerYSpeed = lengthdir_y(InputMagnitude * PlayerMoveSpeed, InputDirection);
+    //PlayerXSpeed = lengthdir_x(InputMagnitude * PlayerMoveSpeed, InputDirection);
+    //PlayerYSpeed = lengthdir_y(InputMagnitude * PlayerMoveSpeed, InputDirection);
+    
+    move_and_collide(XInput * PlayerMoveSpeed, YInput * PlayerMoveSpeed, [muro_obj, acqua_obj])
     
     x += PlayerXSpeed
     y += PlayerYSpeed
@@ -28,13 +32,15 @@ if (CanPlayerMove) {
 }
 
 // Combat
-if (keyboard_check_pressed(vk_space)){
+if (keyboard_check_pressed(vk_space) and PlayerIsAttacking == false){
     CanPlayerMove = false
+    PlayerIsAttacking = true
     sprite_index = PlayerAttackSprite
     AnimatePlayerAttack()
 }
 
 if (image_index > 5 and sprite_index == PlayerAttackSprite) {
     CanPlayerMove = true
+    PlayerIsAttacking = false
     sprite_index = PlayerIdle
 }
