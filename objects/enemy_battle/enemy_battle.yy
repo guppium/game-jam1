@@ -9,8 +9,8 @@
   "name":"enemy_battle",
   "overriddenProperties":[],
   "parent":{
-    "name":"battle",
-    "path":"folders/objects/battle.yy",
+    "name":"Battle",
+    "path":"folders/Assets/Objects/Battle.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy1",
-    "path":"sprites/spr_enemy1/spr_enemy1.yy",
+    "name":"Enemy1Sprite",
+    "path":"sprites/Enemy1Sprite/Enemy1Sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

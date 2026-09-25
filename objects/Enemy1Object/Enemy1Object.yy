@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"action_1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Enemy1Object",
+  "eventList":[],
   "managed":true,
-  "name":"action_1",
+  "name":"Enemy1Object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Battle",
-    "path":"folders/Assets/Objects/Battle.yy",
+    "name":"Objects",
+    "path":"folders/Assets/Objects.yy",
   },
   "parentObjectId":{
-    "name":"action_parent",
-    "path":"objects/action_parent/action_parent.yy",
+    "name":"GeneralEnemyParent",
+    "path":"objects/GeneralEnemyParent/GeneralEnemyParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_light",
-    "path":"sprites/spr_button_light/spr_button_light.yy",
+    "name":"Enemy1Sprite",
+    "path":"sprites/Enemy1Sprite/Enemy1Sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

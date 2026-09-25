@@ -9,8 +9,8 @@
   "name":"action_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"battle",
-    "path":"folders/objects/battle.yy",
+    "name":"Battle",
+    "path":"folders/Assets/Objects/Battle.yy",
   },
   "parentObjectId":null,
   "persistent":false,
