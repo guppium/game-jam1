@@ -1,3 +1,4 @@
+
 if instance_exists(Object1) && distance_to_object(Object1) < distance_player
 {
     target_x = player_object.x;
