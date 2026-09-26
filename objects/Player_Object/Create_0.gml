@@ -16,4 +16,8 @@ PlayerIsAttacking = false;
 
 PlayerLocalFrame = 0;
 
-PlayerDamage = 1;
+global.PlayerHP = 4
+global.PlayerMaxHP = global.PlayerHP
+
+global.PlayerDamage = 1;
+global.PlayerAttackRange = 20
