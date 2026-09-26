@@ -45,3 +45,7 @@ if (image_index > 5 and sprite_index == PlayerAttackSprite) {
     PlayerIsAttacking = false
     sprite_index = PlayerIdle
 }
+
+if global.PlayerHP <= 0 {
+    instance_destroy(id)
+}
