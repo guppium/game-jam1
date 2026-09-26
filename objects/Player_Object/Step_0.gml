@@ -35,6 +35,7 @@ if (CanPlayerMove) {
 if (keyboard_check_pressed(vk_space) and PlayerIsAttacking == false){
     CanPlayerMove = false
     PlayerIsAttacking = true
+    Attack()
     sprite_index = PlayerAttackSprite
     AnimatePlayerAttack()
 }
