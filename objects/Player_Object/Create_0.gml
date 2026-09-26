@@ -17,3 +17,4 @@ PlayerIsAttacking = false;
 PlayerLocalFrame = 0;
 
 PlayerDamage = 1;
+PlayerHp = 4
